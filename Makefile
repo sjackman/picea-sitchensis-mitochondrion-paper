@@ -3,7 +3,7 @@ pandoc_opt=-Fpandoc-crossref -Fpandoc-citeproc
 .DELETE_ON_ERROR:
 .SECONDARY:
 
-all: psitchensismt.html
+all: psitchensismt.pdf
 
 clean:
 	rm -f psitchensismt.html psitchensismt.pdf psitchensismt-supp.html psitchensismt-supp.pdf
@@ -31,6 +31,14 @@ psitchensismt-supp.pdf: psitchensismt-supp.md
 # Render RMarkdown to HTML using R
 %.html: %.rmd
 	RScript -e 'rmarkdown::render("$<")'
+
+# Fetch BibTex records from a list of DOI.
+%.doi.bib: %.doi
+	brew cite $$(<$<) | sort >$@
+
+# Concatentate the citations with and without DOI.
+%.bib: %.doi.bib %.other.bib
+	sort $^ | sed 's~http://dx.doi.org~https://doi.org~' >$@
 
 psitchensismt.docx: psitchensismt.bib psitchensismt.csl
 psitchensismt.html: psitchensismt.bib psitchensismt.csl
