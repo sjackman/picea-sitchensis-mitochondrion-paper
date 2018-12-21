@@ -44,4 +44,29 @@ The mitochondrial genome of Sitka spruce is 5.52 Mbp assembled in 13 segments, w
 
 ![The assembly graph of the mitochondrial genome of Sitka spruce. Each segment is labeled with its size and named 01 through 13 by rank of size.](figures/genome.png){#fig:genome}
 
+## Genome annotation
+
+The mitochondrial genome of Sitka spruce has 41 distinct protein coding genes with known function, 3 distinct rRNA genes, 26 distinct tRNA genes representing 17 distinct anticodons. The 41 protein coding genes are those seen in the gymnosperm mitochondria *Cycas taitungensis* and *Ginkgo biloba* [@Guo_2016]. 27 introns are found in 10 protein coding genes, 14 cis-spliced and 13 trans-spliced, shown in @tbl:introns.
+
+The 5S rRNA gene *rrn5* is present in four copies. The small subunit rRNA gene *rrn18* is present in three copies, though one copy is found on the 27 kbp repeat segment with an estimated copy number of two, yielding a total copy number of four. One copy of the large subunit rRNA gene *rrn26* is present, though it is found on the 24 kbp repeat segment, which has an estimated copy number of two.
+
+26 tRNA genes are seen, representing 17 distinct anticodons, coding for 13 distinct amino acids, DEHKLMNPQRTWY. *trnM-CAU* has seven copies, *trnD-GUC* three copies, and *trnY-GUA* two copies. All other tRNA genes are single copy. No introns are observed in tRNA. This account does not consider possible RNA editing of the anticodon.
+
+Table: 27 introns are seen in ten protein coding genes, 14 cis-spliced and 13 trans-spliced. \*A second partial copy of *nad5* has one cis-spliced intron. {#tbl:introns}
+
+| Gene  | Sitka introns | Cis | Trans | Cycad introns | Cis | Trans |
+|-------|--------------:|----:|------:|--------------:|----:|------:|
+| ccmFC |             1 |   1 |     0 |             1 |   1 |     0 |
+| cox2  |             2 |   0 |     2 |             2 |   2 |     0 |
+| nad1  |             4 |   1 |     3 |             4 |   2 |     2 |
+| nad2  |             4 |   2 |     2 |             4 |   3 |     1 |
+| nad4  |             3 |   2 |     1 |             3 |   3 |     0 |
+| nad5  |             4 |   2 |     2 |             4 |   2 |     2 |
+| nad5\*|             1 |   0 |     0 |               |     |       |
+| nad7  |             4 |   2 |     2 |             4 |   4 |     0 |
+| rpl2  |             1 |   0 |     1 |             1 |   1 |     0 |
+| rps3  |             2 |   2 |     0 |             2 |   2 |     0 |
+| rps10 |             1 |   1 |     0 |             1 |   1 |     0 |
+| Total |            27 |  14 |    13 |            26 |  21 |     5 |
+
 # References
