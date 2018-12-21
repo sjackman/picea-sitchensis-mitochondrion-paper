@@ -16,7 +16,7 @@ Plant mitochondrial genomes vary widely in size. Although many plant mitochondri
 
 # Introduction
 
-Annotating plant mitochondrial genomes is made difficult by numerous features of plant mitochondria that are not typical of most organisms. RNA editing of C-to-U is pervasive and creates AUG start codons by editing ACG to AUG and can also create stop codons in a similar fashion [@Hiesel_1989]. An alternative GUG start codon is used by some genes [@Sakamoto_1997], which may be created by RNA editing of a GCG codon. The typical GU-AG splice site expected by most splice-aware alignments tools is instead GUGCG-AY (Y denotes C or T) for group II introns [@Lambowitz_2010]. Trans-spliced genes are common in mitochondrial genomes [@Kamikawa_2016], and no purpose-built software tool exists for identifying and annotating trans-spliced genes. For these reasons, annotating a plant mitochondrial genome remains a laborious and manual task.
+Annotating plant mitochondrial genomes is made difficult by numerous features of plant mitochondria that are not typical of most organisms. RNA editing of C-to-U is pervasive and creates AUG start codons by editing ACG to AUG and can also create stop codons in a similar fashion [@Hiesel_1989]. An alternative GUG start codon is used by some genes [@Sakamoto_1997], which may be created by RNA editing of a GCG codon. The typical GU-AG splice site expected by most splice-aware alignments tools is instead GUGCG-AY (Y denotes C or T) for group II introns [@Lambowitz_2010]. Trans-spliced genes are common in mitochondrial genomes [@Kamikawa_2016], and no purpose-built software tool exists for identifying and annotating trans-spliced genes. To add further difficulty, trans-spliced exons may be as small as 22 bp, as is *nad5* exon 3 of gymnosperm [@Guo_2016]. For these reasons, annotating a plant mitochondrial genome remains a laborious and manual task.
 
 # Methods
 
@@ -44,13 +44,23 @@ The mitochondrial genome of Sitka spruce is 5.52 Mbp assembled in 13 segments, w
 
 ![The assembly graph of the mitochondrial genome of Sitka spruce. Each segment is labeled with its size and named 01 through 13 by rank of size.](figures/genome.png){#fig:genome}
 
-## Genome annotation
+## Genes
 
-The mitochondrial genome of Sitka spruce has 41 distinct protein coding genes with known function, 3 distinct rRNA genes, 26 distinct tRNA genes representing 17 distinct anticodons. The 41 protein coding genes are those seen in the gymnosperm mitochondria *Cycas taitungensis* and *Ginkgo biloba* [@Guo_2016]. 27 introns are found in 10 protein coding genes, 14 cis-spliced and 13 trans-spliced, shown in @tbl:introns.
+The mitochondrial genome of Sitka spruce has 41 distinct protein coding genes with known function, 3 distinct rRNA genes, 26 distinct tRNA genes representing 17 distinct anticodons. The 41 protein coding genes are those seen in the gymnosperm mitochondria *Cycas taitungensis* [@Chaw_2008] and *Ginkgo biloba* [@Guo_2016]. 27 introns are found in 10 protein coding genes, 14 cis-spliced and 13 trans-spliced, shown in @tbl:introns.
 
 The 5S rRNA gene *rrn5* is present in four copies. The small subunit rRNA gene *rrn18* is present in three copies, though one copy is found on the 27 kbp repeat segment with an estimated copy number of two, yielding a total copy number of four. One copy of the large subunit rRNA gene *rrn26* is present, though it is found on the 24 kbp repeat segment, which has an estimated copy number of two.
 
 26 tRNA genes are seen, representing 17 distinct anticodons, coding for 13 distinct amino acids, DEHKLMNPQRTWY. *trnM-CAU* has seven copies, *trnD-GUC* three copies, and *trnY-GUA* two copies. All other tRNA genes are single copy. No introns are observed in tRNA. This account does not consider possible RNA editing of the anticodon.
+
+## Introns
+
+Although the same 26 introns are found in the same 10 genes as *Cycas taitungensis* [@Chaw_2008, @Guo_2016], eight introns that are cis-spliced in *Cycas* are trans-spliced in Sitka spruce, more than doubling the number of trans-spliced introns found in *Cycas*. Half of the introns in Sitka are trans-spliced. All introns are group II introns, and domain V was identified by RNAweasel [@Lang_2007], with one exception.
+
+The first intron of *nad1*, which is trans-spliced in Sitka and other gymnosperm [@Guo_2016], has no domain V detectable by RNAweasel. The genomic disruption of this intron may occur in domain V itself, as is seen in *cox2* of *Diphylleia rotans* [@Kamikawa_2016], possibly fractured twice as is *nad1* intron 4 of *Welwitschia mirabilis* [@Guo_2016]. Alternatively, RNA editing may be preventing its detection by RNAweasel.
+
+The fourth intron of *nad1* is cis-spliced and contains *matR* in *Cycas*, trans-spliced with a single disruption in Sitka, and trans-spliced with two distinct genomic disruptions in *Welwitschia mirabilis* [Figure S2 of @Guo_2016]. Whereas *matR* is found in a cis-spliced intron in *Cycas* and free-standing in *Welwitschia*, it is found upstream of *nad1* exon 5 in Sitka. In this regard, Sitka appears to be an evolutionary midpoint found between *Cycas* and *Welwitschia*. Sitka however has not experienced the extensive gene loss observed in *Welwitschia*.
+
+A second partial copy of *nad5* is found in Sitka with one cis-spliced group II intron, representing exons 4 and 5. This translated protein sequence of this partial gene is more similar however to eudicots (99% identical) than to the complete *nad5* of Sitka (76% identical) and may have been acquired by horizontal gene transfer. This partial *nad5* is also found in white spruce (*Picea glauca*) [@Jackman_2015] with 100% identity.
 
 Table: 27 introns are seen in ten protein coding genes, 14 cis-spliced and 13 trans-spliced. \*A second partial copy of *nad5* has one cis-spliced intron. {#tbl:introns}
 
