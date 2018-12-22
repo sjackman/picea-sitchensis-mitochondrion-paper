@@ -46,11 +46,11 @@ The mitochondrial genome of Sitka spruce is 5.52 Mbp assembled in 13 segments, w
 
 ## Genes
 
-The mitochondrial genome of Sitka spruce has 41 distinct protein coding genes with known function, 3 distinct rRNA genes, 26 distinct tRNA genes representing 17 distinct anticodons. The 41 protein coding genes are those seen in the gymnosperm mitochondria *Cycas taitungensis* [@Chaw_2008] and *Ginkgo biloba* [@Guo_2016]. 27 introns are found in 10 protein coding genes, 14 cis-spliced and 13 trans-spliced, shown in @tbl:introns.
+The mitochondrial genome of Sitka spruce has 41 distinct protein coding genes with known function, 3 distinct rRNA genes, 27 distinct tRNA genes representing 18 distinct anticodons. The 41 protein coding genes are those seen in the gymnosperm mitochondria *Cycas taitungensis* [@Chaw_2008] and *Ginkgo biloba* [@Guo_2016]. 27 introns are found in 10 protein coding genes, 14 cis-spliced and 13 trans-spliced, shown in @tbl:introns. One additional intron is found in a plastid-derived tRNA gene, bringing the total count to 28 introns.
 
-The 5S rRNA gene *rrn5* is present in four copies. The small subunit rRNA gene *rrn18* is present in three copies, though one copy is found on the 27 kbp repeat segment with an estimated copy number of two, yielding a total copy number of four. One copy of the large subunit rRNA gene *rrn26* is present, though it is found on the 24 kbp repeat segment, which has an estimated copy number of two.
+Sitka has all three rRNA genes. The 5S rRNA gene *rrn5* is present in four copies. The small subunit rRNA gene *rrn18* is present in three copies, though one copy is found on the 27 kbp repeat segment with an estimated copy number of two, yielding a total copy number of four. One copy of the large subunit rRNA gene *rrn26* is present, though it is found on the 24 kbp repeat segment, which has an estimated copy number of two.
 
-26 tRNA genes are seen, representing 17 distinct anticodons, coding for 13 distinct amino acids, DEHKLMNPQRTWY. *trnM-CAU* has seven copies, *trnD-GUC* three copies, and *trnY-GUA* two copies. All other tRNA genes are single copy. No introns are observed in tRNA. This account does not consider possible RNA editing of the anticodon.
+Sitka has 27 tRNA genes, representing 18 distinct anticodons, coding for 14 distinct amino acids, DEHKLMNPQRTVWY. *trnM-CAU* has seven copies, *trnD-GUC* three copies, and *trnY-GUA* two copies. All other tRNA genes are single copy. One cis-spliced intron is observed in *trnV-UAC* of plastid origin. This account does not consider possible RNA editing of the anticodon.
 
 ## Introns
 
@@ -62,21 +62,24 @@ The fourth intron of *nad1* is cis-spliced and contains *matR* in *Cycas*, trans
 
 A second partial copy of *nad5* is found in Sitka with one cis-spliced group II intron, representing exons 4 and 5. This translated protein sequence of this partial gene is more similar however to eudicots (99% identical to both *Chrysobalanus icaco* and *Hirtella racemosa* and >95% identical to many others) than to the complete *nad5* of Sitka (76% identical) and may have been acquired by horizontal gene transfer, as is frequently reported in plant mitochondria [@Richardson_2006] of both gymnosperm [@Won_2003] and angiosperm [@Bergthorsson_2003], although this interpretation has been questioned in *Vitis vinifera* [@Goremykin_2008]. This partial *nad5* is also found in white spruce (*Picea glauca*) [@Jackman_2015] with 100% identity.
 
-Table: 27 introns are seen in ten protein coding genes, 14 cis-spliced and 13 trans-spliced. \*A second partial copy of *nad5* has one cis-spliced intron. {#tbl:introns}
+RNAweasel identifies 34 group II domain V regions in Sitka, 26 of which are associated with a cis- or trans-spliced introns in coding gene, and one of which is in the intron tRNA *trnV-UAC* of plastid origin. The remaining seven domain V are not associated with a gene. Further investigation would be needed to determine whether these hits are partial fragments of introns or false positives.
 
-| Gene  | Sitka introns | Cis | Trans | Cycad introns | Cis | Trans |
-|-------|--------------:|----:|------:|--------------:|----:|------:|
-| ccmFC |             1 |   1 |     0 |             1 |   1 |     0 |
-| cox2  |             2 |   0 |     2 |             2 |   2 |     0 |
-| nad1  |             4 |   1 |     3 |             4 |   2 |     2 |
-| nad2  |             4 |   2 |     2 |             4 |   3 |     1 |
-| nad4  |             3 |   2 |     1 |             3 |   3 |     0 |
-| nad5  |             4 |   2 |     2 |             4 |   2 |     2 |
-| nad5\*|             1 |   0 |     0 |               |     |       |
-| nad7  |             4 |   2 |     2 |             4 |   4 |     0 |
-| rpl2  |             1 |   0 |     1 |             1 |   1 |     0 |
-| rps3  |             2 |   2 |     0 |             2 |   2 |     0 |
-| rps10 |             1 |   1 |     0 |             1 |   1 |     0 |
-| Total |            27 |  14 |    13 |            26 |  21 |     5 |
+Table: 27 introns are seen in ten protein coding genes, 14 cis-spliced and 13 trans-spliced. One cis-spliced intron is seen in a plastid-derived tRNA. \*An additional partial copy of *nad5* has one cis-spliced intron. {#tbl:introns}
+
+| Gene     | Sitka introns | Cis | Trans | Cycad introns | Cis | Trans |
+|----------|--------------:|----:|------:|--------------:|----:|------:|
+| ccmFC    |             1 |   1 |     0 |             1 |   1 |     0 |
+| cox2     |             2 |   0 |     2 |             2 |   2 |     0 |
+| nad1     |             4 |   1 |     3 |             4 |   2 |     2 |
+| nad2     |             4 |   2 |     2 |             4 |   3 |     1 |
+| nad4     |             3 |   2 |     1 |             3 |   3 |     0 |
+| nad5     |             4 |   2 |     2 |             4 |   2 |     2 |
+| nad5\*   |             1 |   0 |     0 |               |     |       |
+| nad7     |             4 |   2 |     2 |             4 |   4 |     0 |
+| rpl2     |             1 |   0 |     1 |             1 |   1 |     0 |
+| rps3     |             2 |   2 |     0 |             2 |   2 |     0 |
+| rps10    |             1 |   1 |     0 |             1 |   1 |     0 |
+| trnV-UAC |             1 |   1 |     0 |               |     |       |
+| Total    |            28 |  15 |    13 |            26 |  21 |     5 |
 
 # References
