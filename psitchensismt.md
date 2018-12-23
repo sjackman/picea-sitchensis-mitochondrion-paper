@@ -105,4 +105,8 @@ Table: Intron content of four gymnosperm species. Sitka spruce has 29 introns, 1
 | Total trans (T)    |               |  5     |  5     | 13     | 7           |
 | Total introns      |               | 27     | 25     | 29     |10           |
 
+The splice site motifs of the 14 cis-spliced genes of Sitka are shown in @fig:splice, visualized by WebLogo [@Crooks_2004]. Because its position is variable, the bulged adenosine of the 3' splice site, typically found at position -7 or -8, is not readily apparent.
+
+![The 5' and 3' splice site motifs of the 14 cis-spliced genes of Sitka.](figures/splice.png){#fig:splice}
+
 # References
