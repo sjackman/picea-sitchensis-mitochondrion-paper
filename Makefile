@@ -18,7 +18,7 @@ psitchensismt.csl:
 
 # Render Markdown to PDF using Pandoc
 %.pdf: %.md
-	pandoc $(pandoc_opt) -o $@ $<
+	pandoc $(pandoc_opt) --pdf-engine=xelatex -o $@ $<
 
 # Generate Table of Contents for supplemental material only
 psitchensismt-supp.pdf: psitchensismt-supp.md
