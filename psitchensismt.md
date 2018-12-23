@@ -68,22 +68,40 @@ A second partial copy of *nad5* is found in Sitka with one cis-spliced group II 
 
 RNAweasel identifies 34 group II domain V regions in Sitka, 26 of which are associated with a cis- or trans-spliced introns in coding gene, and one of which is in the intron of the plastid-derived tRNA *trnV-UAC*. One domain V is derived from the intron of the plastid *rpl2* gene. The remaining six domain V are not associated with a gene. Further investigation would be needed to determine whether these hits are partial fragments of introns or false positives.
 
-Table: 27 introns are seen in ten protein coding genes, 14 cis-spliced and 13 trans-spliced. One cis-spliced intron is seen in a plastid-derived tRNA. \*An additional partial copy of *nad5* has one cis-spliced intron. {#tbl:introns}
+Table: Intron content of four gymnosperm species. Sitka spruce has 28 introns, 15 cis-spliced (&bull;) and 13 trans-spliced (T), in ten protein coding genes, one pseudogene (&Psi;), and one tRNA. "T&sup2;" indicates a tripartite double trans-spliced intron. "-" indicates intron absence, and "x" indicates gene absence. "cp" indicates plastid-derived. This table is adapted from [@Guo_2016] with the addition of *Picea sitchensis*. {#tbl:introns}
 
-| Gene     | Sitka introns | Cis | Trans | Cycad introns | Cis | Trans |
-|----------|--------------:|----:|------:|--------------:|----:|------:|
-| ccmFC    |             1 |   1 |     0 |             1 |   1 |     0 |
-| cox2     |             2 |   0 |     2 |             2 |   2 |     0 |
-| nad1     |             4 |   1 |     3 |             4 |   2 |     2 |
-| nad2     |             4 |   2 |     2 |             4 |   3 |     1 |
-| nad4     |             3 |   2 |     1 |             3 |   3 |     0 |
-| nad5     |             4 |   2 |     2 |             4 |   2 |     2 |
-| nad5\*   |             1 |   0 |     0 |               |     |       |
-| nad7     |             4 |   2 |     2 |             4 |   4 |     0 |
-| rpl2     |             1 |   0 |     1 |             1 |   1 |     0 |
-| rps3     |             2 |   2 |     0 |             2 |   2 |     0 |
-| rps10    |             1 |   1 |     0 |             1 |   1 |     0 |
-| trnV-UAC |             1 |   1 |     0 |               |     |       |
-| Total    |            28 |  15 |    13 |            26 |  21 |     5 |
+| Gene               | Intron        | Cycas  | Ginkgo | Picea  | Welwitschia |
+|--------------------|---------------|--------|--------|--------|-------------|
+| ccmFc              | 1             | &bull; | &bull; | &bull; | -           |
+| cox2               | 1             | &bull; | &bull; | T      | -           |
+|                    | 2             | &bull; | &bull; | T      | T           |
+| nad1               | 1             | T      | T      | T      | T           |
+|                    | 2             | &bull; | &bull; | &bull; | -           |
+|                    | 3             | T      | T      | T      | T           |
+|                    | 4             | &bull; | &bull; | T      | T&sup2;     |
+| nad2               | 1             | &bull; | &bull; | &bull; | -           |
+|                    | 2             | T      | T      | T      | T           |
+|                    | 3             | &bull; | &bull; | &bull; | -           |
+|                    | 4             | &bull; | &bull; | T      | -           |
+| nad4               | 1             | &bull; | &bull; | T      | &bull;      |
+|                    | 2             | &bull; | &bull; | &bull; | -           |
+|                    | 3             | &bull; | &bull; | &bull; | -           |
+| nad5               | 1             | &bull; | &bull; | &bull; | -           |
+|                    | 2             | T      | T      | T      | T           |
+|                    | 3             | T      | T      | T      | T           |
+|                    | 4             | &bull; | &bull; | &bull; | -           |
+| &Psi;nad5          | 4             | x      | x      | &bull; | x           |
+| nad7               | 1             | &bull; | &bull; | &bull; | -           |
+|                    | 2             | &bull; | &bull; | T      | &bull;      |
+|                    | 3             | &bull; | &bull; | &bull; | -           |
+|                    | 4             | &bull; | &bull; | T      | &bull;      |
+| rpl2               | 1             | &bull; | &bull; | T      | x           |
+| rps3               | 1             | &bull; | &bull; | &bull; | -           |
+|                    | 2             | &bull; | &bull; | &bull; | -           |
+| rps10              | 1             | &bull; | -      | &bull; | x           |
+| trnV-UAC (cp)      | 1             | &bull; | x      | &bull; | x           |
+| Total cis (&bull;) |               | 22     | 20     | 15     | 3           |
+| Total trans (T)    |               |  5     |  5     | 13     | 7           |
+| Total introns      |               | 27     | 25     | 28     |10           |
 
 # References
