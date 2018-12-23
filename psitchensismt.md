@@ -48,17 +48,17 @@ The genome is composed of 1.7% (93 kbp) of genes with known function, 9.5% (524 
 
 ## Genes
 
-The mitochondrial genome of Sitka spruce has 41 distinct protein coding genes with known function, 3 distinct rRNA genes, 27 distinct tRNA genes representing 18 distinct anticodons. The 41 protein coding genes are those seen in the gymnosperm mitochondria *Cycas taitungensis* [@Chaw_2008] and *Ginkgo biloba* [@Guo_2016]. 27 introns are found in 10 protein coding genes, 14 cis-spliced and 13 trans-spliced, shown in @tbl:introns. One additional intron is found in a plastid-derived tRNA gene, bringing the total count to 28 introns.
+The mitochondrial genome of Sitka spruce has 41 distinct protein coding genes with known function, 3 distinct rRNA genes, 27 distinct tRNA genes representing 18 distinct anticodons. The 41 protein coding genes are those seen in the gymnosperm mitochondria *Cycas taitungensis* [@Chaw_2008] and *Ginkgo biloba* [@Guo_2016]. The 29 introns, 16 cis-spliced and 13 trans-spliced, are found in 10 protein coding genes, two pseudogenes, and one plastid-derived tRNA, shown in @tbl:introns.
 
 Sitka has all three rRNA genes. The 5S rRNA gene *rrn5* is present in four copies. The small subunit rRNA gene *rrn18* is present in three copies, though one copy is found on the 27 kbp repeat segment with an estimated copy number of two, yielding a total copy number of four. One copy of the large subunit rRNA gene *rrn26* is present, though it is found on the 24 kbp repeat segment, which has an estimated copy number of two.
 
-Sitka has 27 tRNA genes, representing 18 distinct anticodons, coding for 14 distinct amino acids, DEHKLMNPQRTVWY. *trnM-CAU* has seven copies, *trnD-GUC* three copies, and *trnY-GUA* two copies. All other tRNA genes are single copy. The *trnG-UUU*, *trnM-CAU*, and *trnV-UAC* genes are derived from plastid origins. One cis-spliced intron is observed in the plastid-derived *trnV-UAC* gene.
+Sitka has 27 tRNA genes, representing 18 distinct anticodons, coding for 14 distinct amino acids, DEHKLMNPQRTVWY. *trnM-CAU* has seven copies, *trnD-GUC* three copies, and *trnY-GUA* two copies. All other tRNA genes are single copy. The *trnG-UUU*, *trnM-CAU*, and *trnV-UAC* genes are derived from plastid origins. One cis-spliced intron is observed in the plastid-derived *trnV-UAC* gene, also seen in *Cycas taitungensis*.
 
 In addition to three plastid-derived tRNA genes, eight partial plastid genes are found in the 14 kbp of plastid-derived sequence: *atpE*, *chlN*, *petA*, *psaA*, the intron of *rpl2*, *rps3*, *rrn18*, and a partial *trnS-GGA* gene with homology to *Cycas taitungensis*.
 
 ## Introns
 
-Although the same 26 introns are found in the same 10 genes as *Cycas taitungensis* [@Chaw_2008, @Guo_2016], eight introns that are cis-spliced in *Cycas* are trans-spliced in Sitka spruce, more than doubling the number of trans-spliced introns found in *Cycas*. Half of the introns in Sitka are trans-spliced. All introns are group II introns, and domain V was identified by RNAweasel [@Lang_2007], with one exception.
+Although the same 27 introns are found in the same 11 genes as *Cycas taitungensis* [@Chaw_2008, @Guo_2016], eight introns that are cis-spliced in *Cycas* are trans-spliced in Sitka spruce, more than doubling the number of trans-spliced introns found in *Cycas*. Nearly half of the introns in Sitka are trans-spliced. All introns are group II introns, whose domain V was identified by RNAweasel [@Lang_2007], with one exception.
 
 The first intron of *nad1*, which is trans-spliced in Sitka and other gymnosperm [@Guo_2016], has no domain V detectable by RNAweasel. The genomic disruption of this intron may occur in domain V itself, as is seen in *cox2* of *Diphylleia rotans* [@Kamikawa_2016], possibly fractured twice as is *nad1* intron 4 of *Welwitschia mirabilis* [@Guo_2016]. Alternatively, RNA editing may be preventing its detection by RNAweasel.
 
@@ -66,16 +66,16 @@ The fourth intron of *nad1* is cis-spliced and contains *matR* in *Cycas*, trans
 
 A second partial copy of *nad5* is found in Sitka with one cis-spliced group II intron, representing exons 4 and 5. This translated protein sequence of this partial gene is more similar however to eudicots (99% identical to both *Chrysobalanus icaco* and *Hirtella racemosa* and >95% identical to many others) than to the complete *nad5* of Sitka (76% identical) and may have been acquired by horizontal gene transfer, as is frequently reported in plant mitochondria [@Richardson_2006] of both gymnosperm [@Won_2003] and angiosperm [@Bergthorsson_2003], although this interpretation has been questioned in *Vitis vinifera* [@Goremykin_2008]. This partial *nad5* is also found in white spruce (*Picea glauca*) [@Jackman_2015] with 100% identity.
 
-RNAweasel identifies 34 group II domain V regions in Sitka, 26 of which are associated with a cis- or trans-spliced introns in coding gene, and one of which is in the intron of the plastid-derived tRNA *trnV-UAC*. One domain V is derived from the intron of the plastid *rpl2* gene. The remaining six domain V are not associated with a gene. Further investigation would be needed to determine whether these hits are partial fragments of introns or false positives.
+RNAweasel identifies 34 group II domain V regions in Sitka, 26 of which are associated with the intron of a gene. Two domain V are found in the cis-spliced introns of pseudogenes, *&Psi;nad5* and the plastid-derived *&Psi;rpl2*. The remaining six domain V are not associated with a gene, and further investigation would be needed to determine whether they may also be partial fragments of pseudogene introns.
 
-Table: Intron content of four gymnosperm species. Sitka spruce has 28 introns, 15 cis-spliced (&bull;) and 13 trans-spliced (T), in ten protein coding genes, one pseudogene (&Psi;), and one tRNA. "T&sup2;" indicates a tripartite double trans-spliced intron. "-" indicates intron absence, and "x" indicates gene absence. "cp" indicates plastid-derived. This table is adapted from [@Guo_2016] with the addition of *Picea sitchensis*. {#tbl:introns}
+Table: Intron content of four gymnosperm species. Sitka spruce has 29 introns, 16 cis-spliced (&bull;) and 13 trans-spliced (T), in ten protein coding genes, two pseudogenes (&Psi;), and one tRNA. "T\*" indicates no group II domain V is detectable in this intron. "T&sup2;" indicates a tripartite (double trans-spliced) intron. "-" indicates intron absence. "x" indicates gene absence. "cp" indicates plastid-derived. This table is adapted from [@Guo_2016] with the addition of *Picea sitchensis*. {#tbl:introns}
 
 | Gene               | Intron        | Cycas  | Ginkgo | Picea  | Welwitschia |
 |--------------------|---------------|--------|--------|--------|-------------|
 | ccmFc              | 1             | &bull; | &bull; | &bull; | -           |
 | cox2               | 1             | &bull; | &bull; | T      | -           |
 |                    | 2             | &bull; | &bull; | T      | T           |
-| nad1               | 1             | T      | T      | T      | T           |
+| nad1               | 1             | T      | T      | T\*    | T           |
 |                    | 2             | &bull; | &bull; | &bull; | -           |
 |                    | 3             | T      | T      | T      | T           |
 |                    | 4             | &bull; | &bull; | T      | T&sup2;     |
@@ -90,7 +90,6 @@ Table: Intron content of four gymnosperm species. Sitka spruce has 28 introns, 1
 |                    | 2             | T      | T      | T      | T           |
 |                    | 3             | T      | T      | T      | T           |
 |                    | 4             | &bull; | &bull; | &bull; | -           |
-| &Psi;nad5          | 4             | x      | x      | &bull; | x           |
 | nad7               | 1             | &bull; | &bull; | &bull; | -           |
 |                    | 2             | &bull; | &bull; | T      | &bull;      |
 |                    | 3             | &bull; | &bull; | &bull; | -           |
@@ -100,8 +99,10 @@ Table: Intron content of four gymnosperm species. Sitka spruce has 28 introns, 1
 |                    | 2             | &bull; | &bull; | &bull; | -           |
 | rps10              | 1             | &bull; | -      | &bull; | x           |
 | trnV-UAC (cp)      | 1             | &bull; | x      | &bull; | x           |
-| Total cis (&bull;) |               | 22     | 20     | 15     | 3           |
+| &Psi;nad5          | 4             | x      | x      | &bull; | x           |
+| &Psi;rpl2 (cp)     | 1             | x      | x      | &bull; | x           |
+| Total cis (&bull;) |               | 22     | 20     | 16     | 3           |
 | Total trans (T)    |               |  5     |  5     | 13     | 7           |
-| Total introns      |               | 27     | 25     | 28     |10           |
+| Total introns      |               | 27     | 25     | 29     |10           |
 
 # References
