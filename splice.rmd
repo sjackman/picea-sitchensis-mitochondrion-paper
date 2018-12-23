@@ -1,0 +1,32 @@
+---
+title: "Combine images into a single figure"
+author: "Shaun Jackman"
+---
+
+```{r setup, message=FALSE}
+library(cowplot)
+library(ggplot2)
+library(grid)
+library(png)
+```
+
+```{r read-images}
+splice5 <- readPNG("figures/splice5.png")
+splice3 <- readPNG("figures/splice3.png")
+```
+
+```{r diagram, fig.width=6, fig.height=2, dpi=300}
+labels <- c("5' splice site motif", "3' splice site motif")
+
+plot_splice5 <- ggplot() +
+	annotation_custom(rasterGrob(splice5)) +
+	xlab(labels[1])
+
+plot_splice3 <- ggplot() +
+	annotation_custom(rasterGrob(splice3)) +
+	xlab(labels[2])
+
+plot_grid(nrow = 1, plot_splice5, plot_splice3)
+
+ggsave("figures/splice.png", width = 4, height = 1.5)
+```
