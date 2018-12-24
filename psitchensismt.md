@@ -50,7 +50,7 @@ The genome is composed of 1.7% (93 kbp) of genes with known function, 9.5% (524 
 
 The mitochondrial genome of Sitka spruce has 41 distinct protein coding genes with known function, 3 distinct rRNA genes, 27 distinct tRNA genes representing 18 distinct anticodons. The 41 protein coding genes are those seen in the gymnosperm mitochondria *Cycas taitungensis* [@Chaw_2008] and *Ginkgo biloba* [@Guo_2016]. The 29 introns, 16 cis-spliced and 13 trans-spliced, are found in 10 protein coding genes, two pseudogenes, and one plastid-derived tRNA, shown in @tbl:introns.
 
-The three rRNA genes present in other gymnosperm are also found in Sitka spruce, shown in @tbl:rrna. The 5S rRNA gene *rrn5* is present in four copies. The small subunit rRNA gene *rrn18* is present in three copies, though one copy is found on the 27 kbp repeat segment with an estimated copy number of two. One copy of the large subunit rRNA gene *rrn26* is present, though it is found on the 24 kbp repeat segment, which has an estimated copy number of two.
+The full complement of rRNA genes are present in Sitka spruce, shown in @tbl:rrna. Unlike other gymnosperm, these genes are present in multiple copies. The 5S rRNA gene *rrn5* is present in four copies. The small subunit rRNA gene *rrn18* is present in three copies, though one copy is found on the 27 kbp repeat segment with an estimated copy number of two. One copy of the large subunit rRNA gene *rrn26* is present, though it is found on the 24 kbp repeat segment, which has an estimated copy number of two.
 
 Table: rRNA content of four gymnosperm species. This table is adapted from Table S1 of @Guo_2016 with the addition of Sitka spruce. \*One copy is present on a repeat segment with an estimated copy number of two. {#tbl:rrna}
 
