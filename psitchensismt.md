@@ -44,7 +44,7 @@ The mitochondrial genome of Sitka spruce is 5.52 Mbp assembled in 13 segments, w
 
 ![The assembly graph of the mitochondrial genome of Sitka spruce. Each segment is labeled with its size and named 01 through 13 by rank of size.](figures/genome.png){#fig:genome}
 
-The genome is composed of 1.7% (93 kbp) of genes with known function, 9.5% (524 kbp) of 2,499 ORFs (at least 90 bp), 3.7% (205 kbp) of repeats, and 85.1% anonymous sequence. Of the ORFs, 468 are at least 300 bp (100 amino acids) in size and compose 3.6% (202 kbp) of the genome. The nuclear repeat LTR/Gypsy compose 51% of the repeat sequence, LTR/Copia compose 7%, simple repeat sequence compose 34%, low complexity compose 3%, and 5% other repeat sequences. Plastid-derived sequence compose 0.25% (14 kbp) in 24 segments.
+The genome is composed of 1.7% (93 kbp) of genes with known function, 9.5% (524 kbp) of 2,499 ORFs (at least 90 bp), 3.7% (205 kbp) of repeats, and 85.1% anonymous sequence. Of the ORFs, 468 are at least 300 bp (100 amino acids) in size and compose 3.6% (202 kbp) of the genome. 23 ORFs (12 ORFs at least 300 bp) have a significant (E < 0.001) BLASTP hit. The nuclear repeat LTR/Gypsy compose 51% of the repeat sequence, LTR/Copia compose 7%, simple repeat sequence compose 34%, low complexity compose 3%, and 5% other repeat sequences. Plastid-derived sequence compose 0.25% (14 kbp) in 24 segments.
 
 ## Genes
 
