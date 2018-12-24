@@ -63,7 +63,7 @@ rrn26          |  1    |  1     |  1\*  | 1
 
 Sitka has 27 tRNA genes, representing 18 distinct anticodons, coding for 15 distinct amino acids, DEHIKLMNPQRTVWY, shown in @tbl:trna. tRNA genes coding for the amino acids ACFGS are absent in Sitka, and also absent in *Welwitschia*. *trnM-CAU* has six copies, *trnD-GUC* three copies, and *trnY-GUA* two copies. All other tRNA genes are single copy. *trnN-GUU*, *trnV-UAC*, and one copy of *trnfM-CAU* are derived from plastid origins. One cis-spliced intron is observed in the plastid-derived *trnV-UAC* gene, also seen in *Cycas taitungensis*. Six tRNA genes found in Sitka are found in none of *Cycas*, *Ginkgo*, nor *Welwitschia*: *trnL-CAA*, *trnR-CCG*, *trnR-GCG*, *trnT-AGU*, *trnT-UGU*, *trnY-AUA*.
 
-Table: tRNA content of four gymnosperm species. Sitka spruce has 27 tRNA genes, one of which is cis-spliced, with 18 distinct anticodons, coding for 15 distinct amino acids. This table is adapted from [Table S1 of @Guo_2016] with the addition of Sitka spruce. (cp) Derived from plastid origins. (i) Contains a cis-spliced group II intron. \*Anticodon is inferred to be edited. {#tbl:trna}
+Table: tRNA content of four gymnosperm species. Sitka spruce has 27 tRNA genes, one of which is cis-spliced, with 18 distinct anticodons, coding for 15 distinct amino acids. This table is adapted from Table S1 of @Guo_2016 with the addition of Sitka spruce. (i) Contains a cis-spliced group II intron. \*Anticodon is inferred to be edited. {#tbl:trna}
 
 Gene           | Cycas | Ginkgo | Sitka | Welwitschia
 ---------------|-------|--------|-------|------------
@@ -73,33 +73,28 @@ trnE-UUC       |  1    |  1     |  1    | 1
 trnF-GAA       |  1    |  2     |  -    | -
 trnG-GCC       |  1    |  -     |  -    | -
 trnG-UCC       |  -    |  1\*   |  -    | -
-trnH-GUG       |  -    |  -     |  1    | -
-trnH-GUG (cp)  |  1    |  1     |  -    | -
+trnH-GUG       |  1    |  1     |  1    | -
 trnI-CAU       |  1    |  1     |  1    | 1
 trnK-UUU       |  1    |  1\*   |  1    | -
 trnL-CAA       |  -    |  -     |  1    | -
 trnL-UAA       |  1\*  |  2     |  -    | -
 trnL-UAG       |  1    |  1     |  -    | -
-trnM-CAU (cp)  |  2    |  1     |  2    | -
-trnfM-CAU      |  4    |  1     |  3    | -
-trnfM-CAU (cp) |  -    |  -     |  1    | 1
-trnN-GUU       |  1    |  -     |  -    | -
-trnN-GUU (cp)  |  -    |  -     |  1    | -
+trnM-CAU       |  6    |  2     |  6    | 1
+trnN-GUU       |  1    |  -     |  1    | -
 trnP-AGG       |  1    |  1     |  1    | -
 trnP-UGG       |  1    |  1     |  1    | -
 trnQ-UUG       |  1\*  |  1     |  1    | 1
-trnR-ACG (cp)  |  -    |  -     |  -    | 1
+trnR-ACG       |  -    |  -     |  -    | 1
 trnR-CCG       |  -    |  -     |  1    | -
 trnR-GCG       |  -    |  -     |  1    | -
 trnR-UCU       |  1\*  |  1     |  -    | -
 trnS-GCU       |  1    |  1     |  -    | -
-trnS-GGA (cp)  |  1    |  -     |  -    | -
+trnS-GGA       |  1    |  -     |  -    | -
 trnS-UGA       |  1    |  1     |  -    | -
 trnT-AGU       |  -    |  -     |  1    | -
 trnT-UGU       |  -    |  -     |  1    | -
-trnV-UAC (cp,i)|  1    |  -     |  1    | -
-trnW-CCA       |  1    |  2     |  1    | -
-trnW-CCA (cp)  |  -    |  -     |  -    | 1
+trnV-UAC (i)   |  1    |  -     |  1    | -
+trnW-CCA       |  1    |  2     |  1    | 1
 trnY-AUA       |  -    |  -     |  1    | -
 trnY-GUA       |  1    |  1     |  2    | 1
 **Total tRNA** | 27    | 23     | 27    | 8
