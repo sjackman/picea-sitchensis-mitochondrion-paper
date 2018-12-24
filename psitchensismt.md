@@ -161,4 +161,8 @@ The splice site motifs of the 14 cis-spliced genes of Sitka are shown in @fig:sp
 
 ![The 5' and 3' splice site motifs of the 14 cis-spliced genes of Sitka spruce.](figures/splice.png){#fig:splice}
 
+# Conclusion
+
+The mitochondrial genome of Sitka spruce at 5.52 Mbp is large for gymnosperm. Its genomic structure is not the typical circularly-mapping single chromosome, but a complex branching structure, mirroring the complex branching structures seen in electron micrographs of mitochondrial DNA. Although sequence identity of the set of common mitochondrial proteins is well conserved, their structure is not. Trans-splicing is a frequently-employed mechanism of coping with this genomic structural instability, and Sitka spruce has a record number of trans-spliced introns. As the first long read assembly of a complete plant mitochondrial genome, demonstrating a complex branching genome structure, this resource will prove invaluable to future interrogations into the genome structure and mechanism of replication of conifer mitochondrial genomes.
+
 # References
