@@ -126,40 +126,40 @@ RNAweasel identifies 34 group II domain V regions in Sitka, 26 of which are asso
 
 Table: Intron content of four gymnosperm species. Sitka spruce has 29 introns, 16 cis-spliced (&bull;) and 13 trans-spliced (T), in ten protein coding genes, two pseudogenes (&Psi;), and one tRNA. "T&sup2;" indicates a tripartite (double trans-spliced) intron. "-" indicates intron absence. "x" indicates gene absence. "cp" indicates plastid-derived. This table is adapted from [@Guo_2016] with the addition of Sitka spruce. {#tbl:introns}
 
-| Gene               | Intron        | Cycas  | Ginkgo | Sitka  | Welwitschia |
-|--------------------|---------------|--------|--------|--------|-------------|
-| ccmFc              | 1             | &bull; | &bull; | &bull; | -           |
-| cox2               | 1             | &bull; | &bull; | T      | -           |
-|                    | 2             | &bull; | &bull; | T      | T           |
-| nad1               | 1             | T      | T      | T      | T           |
-|                    | 2             | &bull; | &bull; | &bull; | -           |
-|                    | 3             | T      | T      | T      | T           |
-|                    | 4             | &bull; | &bull; | T      | T&sup2;     |
-| nad2               | 1             | &bull; | &bull; | &bull; | -           |
-|                    | 2             | T      | T      | T      | T           |
-|                    | 3             | &bull; | &bull; | &bull; | -           |
-|                    | 4             | &bull; | &bull; | T      | -           |
-| nad4               | 1             | &bull; | &bull; | T      | &bull;      |
-|                    | 2             | &bull; | &bull; | &bull; | -           |
-|                    | 3             | &bull; | &bull; | &bull; | -           |
-| nad5               | 1             | &bull; | &bull; | &bull; | -           |
-|                    | 2             | T      | T      | T      | T           |
-|                    | 3             | T      | T      | T      | T           |
-|                    | 4             | &bull; | &bull; | &bull; | -           |
-| nad7               | 1             | &bull; | &bull; | &bull; | -           |
-|                    | 2             | &bull; | &bull; | T      | &bull;      |
-|                    | 3             | &bull; | &bull; | &bull; | -           |
-|                    | 4             | &bull; | &bull; | T      | &bull;      |
-| rpl2               | 1             | &bull; | &bull; | T      | x           |
-| rps3               | 1             | &bull; | &bull; | &bull; | -           |
-|                    | 2             | &bull; | &bull; | &bull; | -           |
-| rps10              | 1             | &bull; | -      | &bull; | x           |
-| trnV-UAC (cp)      | 1             | &bull; | x      | &bull; | x           |
-| &Psi;nad5          | 4             | x      | x      | &bull; | x           |
-| &Psi;rpl2 (cp)     | 1             | x      | x      | &bull; | x           |
-| Total cis (&bull;) |               | 22     | 20     | 16     | 3           |
-| Total trans (T)    |               |  5     |  5     | 13     | 7           |
-| Total introns      |               | 27     | 25     | 29     |10           |
+| Gene               | Intron | Cycas  | Ginkgo | Sitka  | Welwitschia |
+|--------------------|--------|--------|--------|--------|-------------|
+| ccmFc              | 1      | &bull; | &bull; | &bull; | -           |
+| cox2               | 1      | &bull; | &bull; | T      | -           |
+|                    | 2      | &bull; | &bull; | T      | T           |
+| nad1               | 1      | T      | T      | T      | T           |
+|                    | 2      | &bull; | &bull; | &bull; | -           |
+|                    | 3      | T      | T      | T      | T           |
+|                    | 4      | &bull; | &bull; | T      | T&sup2;     |
+| nad2               | 1      | &bull; | &bull; | &bull; | -           |
+|                    | 2      | T      | T      | T      | T           |
+|                    | 3      | &bull; | &bull; | &bull; | -           |
+|                    | 4      | &bull; | &bull; | T      | -           |
+| nad4               | 1      | &bull; | &bull; | T      | &bull;      |
+|                    | 2      | &bull; | &bull; | &bull; | -           |
+|                    | 3      | &bull; | &bull; | &bull; | -           |
+| nad5               | 1      | &bull; | &bull; | &bull; | -           |
+|                    | 2      | T      | T      | T      | T           |
+|                    | 3      | T      | T      | T      | T           |
+|                    | 4      | &bull; | &bull; | &bull; | -           |
+| nad7               | 1      | &bull; | &bull; | &bull; | -           |
+|                    | 2      | &bull; | &bull; | T      | &bull;      |
+|                    | 3      | &bull; | &bull; | &bull; | -           |
+|                    | 4      | &bull; | &bull; | T      | &bull;      |
+| rpl2               | 1      | &bull; | &bull; | T      | x           |
+| rps3               | 1      | &bull; | &bull; | &bull; | -           |
+|                    | 2      | &bull; | &bull; | &bull; | -           |
+| rps10              | 1      | &bull; | -      | &bull; | x           |
+| trnV-UAC (cp)      | 1      | &bull; | x      | &bull; | x           |
+| &Psi;nad5          | 4      | x      | x      | &bull; | x           |
+| &Psi;rpl2 (cp)     | 1      | x      | x      | &bull; | x           |
+| Total cis (&bull;) |        | 22     | 20     | 16     | 3           |
+| Total trans (T)    |        |  5     |  5     | 13     | 7           |
+| Total introns      |        | 27     | 25     | 29     |10           |
 
 The splice site motifs of the 14 cis-spliced genes of Sitka are shown in @fig:splice, visualized by WebLogo [@Crooks_2004]. Because its position is variable, the bulged adenosine of the 3' splice site, typically found at position -7 or -8, is not readily apparent.
 
