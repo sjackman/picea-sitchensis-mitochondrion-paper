@@ -116,7 +116,7 @@ In addition to three plastid-derived tRNA genes, eight partial plastid genes are
 
 Although the same 27 introns are found in the same 11 genes as *Cycas taitungensis* [@Chaw_2008, @Guo_2016], eight introns that are cis-spliced in *Cycas* are trans-spliced in Sitka spruce, more than doubling the number of trans-spliced introns found in *Cycas*. Nearly half of the introns in Sitka are trans-spliced. All introns are group II introns, whose domain V was identified by RNAweasel [@Lang_2007], with one exception.
 
-The first intron of *nad1*, which is trans-spliced in Sitka and other gymnosperm [@Guo_2016], has no domain V detectable by RNAweasel. The genomic disruption of this intron may occur in domain V itself, as is seen in *cox2* of *Diphylleia rotans* [@Kamikawa_2016], possibly fractured twice as is *nad1* intron 4 of *Welwitschia mirabilis* [@Guo_2016]. Alternatively, RNA editing may be preventing its detection by RNAweasel.
+The first intron of *nad1*, which is trans-spliced in Sitka and other gymnosperm [@Guo_2016], has no domain V detectable by Infernal neither downstream of exon 1 nor upstream of exon 2 in neither Sitka nor any of *Cycas*, *Ginkgo*, and *Welwitschia*. The genomic disruption of this intron may occur in domain V itself, as is seen in *cox2* of *Diphylleia rotans* [@Kamikawa_2016].
 
 The fourth intron of *nad1* is cis-spliced and contains *matR* in *Cycas*, trans-spliced with a single disruption in Sitka, and trans-spliced with two distinct genomic disruptions in *Welwitschia mirabilis* [Figure S2 of @Guo_2016]. Whereas *matR* is found in a cis-spliced intron in *Cycas* and free-standing in *Welwitschia*, it is found upstream of *nad1* exon 5 in Sitka. In this regard, Sitka appears to be an evolutionary midpoint found between *Cycas* and *Welwitschia*. Sitka however has not experienced the extensive gene loss observed in *Welwitschia*.
 
@@ -124,14 +124,14 @@ A second partial copy of *nad5* is found in Sitka with one cis-spliced group II 
 
 RNAweasel identifies 34 group II domain V regions in Sitka, 26 of which are associated with the intron of a gene. Two domain V are found in the cis-spliced introns of pseudogenes, *&Psi;nad5* and the plastid-derived *&Psi;rpl2*. The remaining six domain V are not associated with a gene, and further investigation would be needed to determine whether they may also be partial fragments of pseudogene introns.
 
-Table: Intron content of four gymnosperm species. Sitka spruce has 29 introns, 16 cis-spliced (&bull;) and 13 trans-spliced (T), in ten protein coding genes, two pseudogenes (&Psi;), and one tRNA. "T\*" indicates no group II domain V is detectable in this intron. "T&sup2;" indicates a tripartite (double trans-spliced) intron. "-" indicates intron absence. "x" indicates gene absence. "cp" indicates plastid-derived. This table is adapted from [@Guo_2016] with the addition of Sitka spruce. {#tbl:introns}
+Table: Intron content of four gymnosperm species. Sitka spruce has 29 introns, 16 cis-spliced (&bull;) and 13 trans-spliced (T), in ten protein coding genes, two pseudogenes (&Psi;), and one tRNA. "T&sup2;" indicates a tripartite (double trans-spliced) intron. "-" indicates intron absence. "x" indicates gene absence. "cp" indicates plastid-derived. This table is adapted from [@Guo_2016] with the addition of Sitka spruce. {#tbl:introns}
 
 | Gene               | Intron        | Cycas  | Ginkgo | Sitka  | Welwitschia |
 |--------------------|---------------|--------|--------|--------|-------------|
 | ccmFc              | 1             | &bull; | &bull; | &bull; | -           |
 | cox2               | 1             | &bull; | &bull; | T      | -           |
 |                    | 2             | &bull; | &bull; | T      | T           |
-| nad1               | 1             | T      | T      | T\*    | T           |
+| nad1               | 1             | T      | T      | T      | T           |
 |                    | 2             | &bull; | &bull; | &bull; | -           |
 |                    | 3             | T      | T      | T      | T           |
 |                    | 4             | &bull; | &bull; | T      | T&sup2;     |
