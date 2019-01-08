@@ -110,7 +110,7 @@ trnY-AUA       |  -    |  -     |  1    | -
 trnY-GUA       |  1    |  1     |  2    | 1
 **Total tRNA** | 27    | 23     | 27    | 8
 
-In addition to three plastid-derived tRNA genes, eight partial plastid genes are found in the 14 kbp of plastid-derived sequence: *atpE*, *chlN*, *petA*, *psaA*, the intron of *rpl2*, *rps3*, *rrn18*, and a partial *trnS-GGA* gene with homology to *Cycas taitungensis*.
+In addition to three plastid-derived tRNA genes, eight partial plastid genes are found in the 14 kbp of plastid-derived sequence: *atpE*, *chlN*, *petA*, *psaA*, *rps3*, *rrn18*, a partial copy of *rpl2*, and a partial *trnS-GGA* gene with homology to *Cycas taitungensis*. The *rpl2* partial gene is more similar to eudicot plastids (77% identical to *Helwingia himalaica*, *Robinia pseudoacacia*, and many other eudicots) than it is to the Sitka plastid (66% identical).
 
 ## Introns
 
@@ -122,7 +122,7 @@ The fourth intron of *nad1* is cis-spliced and contains *matR* in *Cycas*, trans
 
 A second partial copy of *nad5* is found in Sitka with one cis-spliced group II intron, representing exons 4 and 5. The translated protein sequence of this partial gene is more similar however to eudicot mitochondria (99% identical to both *Chrysobalanus icaco* and *Hirtella racemosa*, >95% identical to many other eudicots, and 94% identical to one monocot *Triantha glutinosa*) than to the complete *nad5* of Sitka (76% identical) and may have been acquired by horizontal gene transfer, as is frequently reported in plant mitochondria [@Richardson_2006] of both gymnosperm [@Won_2003] and angiosperm [@Bergthorsson_2003], although this interpretation of horizontal gene transfer in plant mitochondria has been questioned [@Goremykin_2008]. This partial *nad5* is also found in white spruce (*Picea glauca*) [@Jackman_2015] with 100% nucleotide identity. This level of conservation between Sitka, white spruce, and angiosperms suggests that this partial gene may be functional. We find no domain V upstream, indicating that it may one part of a larger trans-spliced gene. A putatitve alternative GUG start codon created by RNA editing of GCG could initiate translation of this partial gene.
 
-RNAweasel identifies 34 group II domain V regions in Sitka, 26 of which are associated with the intron of a gene. Two domain V are found in the cis-spliced introns of pseudogenes, *&Psi;nad5* and the plastid-derived *&Psi;rpl2*. The remaining six domain V are not associated with a gene, and further investigation would be needed to determine whether they may also be partial fragments of pseudogene introns.
+RNAweasel identifies 34 group II domain V regions in Sitka, 26 of which are associated with the intron of a gene. Two domain V are found in the cis-spliced introns of the pseudogenes *&Psi;nad5* and plastid-derived *&Psi;rpl2*. The remaining six domain V are not associated with a gene, and further investigation would be needed to determine whether they may also be partial fragments of pseudogene introns.
 
 Table: Intron content of four gymnosperm species. Sitka spruce has 29 introns, 16 cis-spliced (&bull;) and 13 trans-spliced (T), in ten protein coding genes, two pseudogenes (&Psi;), and one tRNA. "T&sup2;" indicates a tripartite (double trans-spliced) intron. "-" indicates intron absence. "x" indicates gene absence. "cp" indicates plastid-derived. This table is adapted from [@Guo_2016] with the addition of Sitka spruce. {#tbl:introns}
 
