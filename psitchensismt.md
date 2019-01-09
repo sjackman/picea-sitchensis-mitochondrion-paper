@@ -74,7 +74,7 @@ rrn26          |  1    |  1     |  1\*  | 1
 
 Sitka has 27 tRNA genes, representing 18 distinct anticodons, coding for 15 distinct amino acids, DEHIKLMNPQRTVWY, shown in @tbl:trna. tRNA genes coding for the amino acids ACFGS are absent in Sitka, and also absent in *Welwitschia*. *trnM-CAU* has six copies, *trnD-GUC* three copies, and *trnY-GUA* two copies. All other tRNA genes are single copy. *trnN-GUU*, *trnV-UAC*, and one copy of *trnfM-CAU* are derived from plastid origins. One cis-spliced intron is observed in the plastid-derived *trnV-UAC* gene, also seen in *Cycas taitungensis*. Six tRNA genes found in Sitka are found in none of *Cycas*, *Ginkgo*, nor *Welwitschia*: *trnL-CAA*, *trnR-CCG*, *trnR-GCG*, *trnT-AGU*, *trnT-UGU*, *trnY-AUA*.
 
-Table: tRNA content of four gymnosperm species. Sitka spruce has 27 tRNA genes, one of which is cis-spliced, with 18 distinct anticodons, coding for 15 distinct amino acids. This table is adapted from Table S1 of @Guo_2016 with the addition of Sitka spruce. (i) Contains a cis-spliced group II intron. \*Anticodon is inferred to be edited. {#tbl:trna}
+Table: tRNA content of four gymnosperm species. Sitka spruce has 27 tRNA genes, one of which is cis-spliced, with 18 distinct anticodons, coding for 15 distinct amino acids. This table is adapted from Table S1 of @Guo_2016 with the addition of Sitka spruce. (i) Contains a cis-spliced group II intron. \*Anticodon is inferred to be edited [@Weber_1990]. {#tbl:trna}
 
 Gene           | Cycas | Ginkgo | Sitka | Welwitschia
 ---------------|-------|--------|-------|------------
@@ -85,7 +85,7 @@ trnF-GAA       |  1    |  2     |  -    | -
 trnG-GCC       |  1    |  -     |  -    | -
 trnG-UCC       |  -    |  1\*   |  -    | -
 trnH-GUG       |  1    |  1     |  1    | -
-trnI-CAU       |  1    |  1     |  1    | 1
+trnI-CAU       |  1\*  |  1\*   |  1\*  | 1\*
 trnK-UUU       |  1    |  1\*   |  1    | -
 trnL-CAA       |  -    |  -     |  1    | -
 trnL-UAA       |  1\*  |  2     |  -    | -
