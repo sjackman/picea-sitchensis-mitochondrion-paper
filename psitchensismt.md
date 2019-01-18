@@ -123,7 +123,7 @@ A second partial copy of *nad5* is found in Sitka spruce with one cis-spliced gr
 
 RNAweasel identifies 34 group II domain V regions in Sitka spruce, 26 of which are associated with the intron of a gene. Two domain V regions are found in the cis-spliced introns of the pseudogenes *&Psi;nad5* and plastid-derived *&Psi;rpl2*. The remaining six domain V regions are not associated with a gene, and further investigation would be needed to determine whether they may also be partial fragments of pseudogene introns.
 
-Table: Intron content of four gymnosperms. Sitka spruce has 29 introns, 16 cis-spliced (&bull;) and 13 trans-spliced (T), in ten protein coding genes, two pseudogenes (&Psi;), and one tRNA. "T&sup2;" indicates a tripartite (double trans-spliced) intron. "-" indicates intron absence. "x" indicates gene absence. "cp" indicates plastid-derived. This table is adapted from [@Guo_2016] with the addition of Sitka spruce. {#tbl:introns}
+Table: Intron content of four gymnosperms. Sitka spruce has 29 introns, 16 cis-spliced (&bull;) and 13 trans-spliced (T), in ten protein coding genes, two pseudogenes (&Psi;), and one tRNA. "T&sup2;" indicates a tripartite (double trans-spliced) intron. "-" indicates intron absence. "x" indicates gene absence. "cp" indicates plastid-derived. This table is adapted from @Guo_2016 with the addition of Sitka spruce. {#tbl:introns}
 
 | Gene               | Intron | Cycas  | Ginkgo | Sitka  | Welwitschia |
 |--------------------|--------|--------|--------|--------|-------------|
