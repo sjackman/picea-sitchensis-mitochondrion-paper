@@ -64,50 +64,50 @@ The full complement of rRNA genes are present in Sitka spruce, shown in @tbl:rrn
 
 Table: rRNA content of four gymnosperms. This table is adapted from Table S1 of @Guo_2016 with the addition of Sitka spruce. \*One copy is present on a repeat segment with an estimated copy number of two. {#tbl:rrna}
 
-Gene           | Cycas | Ginkgo | Sitka | Welwitschia
----------------|-------|--------|-------|------------
-rrn5           |  1    |  1     |  4    | 1
-rrn18          |  1    |  1     |  3\*  | 1
-rrn26          |  1    |  1     |  1\*  | 1
-**Total rRNA** |  3    |  3     |  8    | 3
+| Gene           | Cycas | Ginkgo | Sitka | Welwitschia |
+|----------------|-------|--------|-------|-------------|
+| rrn5           |  1    |  1     |  4    | 1           |
+| rrn18          |  1    |  1     |  3\*  | 1           |
+| rrn26          |  1    |  1     |  1\*  | 1           |
+| **Total rRNA** |  3    |  3     |  8    | 3           |
 
 Sitka spruce has 27 tRNA genes, representing 18 distinct anticodons, coding for 15 distinct amino acids, DEHIKLMNPQRTVWY (@tbl:trna). tRNA genes coding for the amino acids ACFGS are absent in Sitka spruce, and also absent in *Welwitschia*. *trnM-CAU* has six copies, *trnD-GUC* three copies, and *trnY-GUA* two copies. All other tRNA genes are single copy. *trnN-GUU*, *trnV-UAC*, and one copy of *trnfM-CAU* are derived from plastid origins. One cis-spliced intron is observed in the plastid-derived *trnV-UAC* gene, also seen in *Cycas taitungensis*. Six tRNA genes (*trnL-CAA*, *trnR-CCG*, *trnR-GCG*, *trnT-AGU*, *trnT-UGU*, and *trnY-AUA*) found in Sitka spruce are absent in *Cycas*, *Ginkgo*, and *Welwitschia*.
 
 Table: tRNA content of four gymnosperms. Sitka spruce has 27 tRNA genes, one of which is cis-spliced, with 18 distinct anticodons, coding for 15 distinct amino acids. This table is adapted from Table S1 of @Guo_2016 with the addition of Sitka spruce. (i) Contains a cis-spliced group II intron. \*Anticodon is inferred to be edited [@Weber_1990]. {#tbl:trna}
 
-Gene           | Cycas | Ginkgo | Sitka | Welwitschia
----------------|-------|--------|-------|------------
-trnC-GCA       |  1    |  1     |  -    | -
-trnD-GUC       |  1    |  1     |  3    | 1
-trnE-UUC       |  1    |  1     |  1    | 1
-trnF-GAA       |  1    |  2     |  -    | -
-trnG-GCC       |  1    |  -     |  -    | -
-trnG-UCC       |  -    |  1\*   |  -    | -
-trnH-GUG       |  1    |  1     |  1    | -
-trnI-CAU       |  1\*  |  1\*   |  1\*  | 1\*
-trnK-UUU       |  1    |  1\*   |  1    | -
-trnL-CAA       |  -    |  -     |  1    | -
-trnL-UAA       |  1\*  |  2     |  -    | -
-trnL-UAG       |  1    |  1     |  -    | -
-trnM-CAU       |  6    |  2     |  6    | 1
-trnN-GUU       |  1    |  -     |  1    | -
-trnP-AGG       |  1    |  1     |  1    | -
-trnP-UGG       |  1    |  1     |  1    | -
-trnQ-UUG       |  1\*  |  1     |  1    | 1
-trnR-ACG       |  -    |  -     |  -    | 1
-trnR-CCG       |  -    |  -     |  1    | -
-trnR-GCG       |  -    |  -     |  1    | -
-trnR-UCU       |  1\*  |  1     |  -    | -
-trnS-GCU       |  1    |  1     |  -    | -
-trnS-GGA       |  1    |  -     |  -    | -
-trnS-UGA       |  1    |  1     |  -    | -
-trnT-AGU       |  -    |  -     |  1    | -
-trnT-UGU       |  -    |  -     |  1    | -
-trnV-UAC (i)   |  1    |  -     |  1    | -
-trnW-CCA       |  1    |  2     |  1    | 1
-trnY-AUA       |  -    |  -     |  1    | -
-trnY-GUA       |  1    |  1     |  2    | 1
-**Total tRNA** | 27    | 23     | 27    | 8
+| Gene           | Cycas | Ginkgo | Sitka | Welwitschia |
+|----------------|-------|--------|-------|-------------|
+| trnC-GCA       |  1    |  1     |  -    | -           |
+| trnD-GUC       |  1    |  1     |  3    | 1           |
+| trnE-UUC       |  1    |  1     |  1    | 1           |
+| trnF-GAA       |  1    |  2     |  -    | -           |
+| trnG-GCC       |  1    |  -     |  -    | -           |
+| trnG-UCC       |  -    |  1\*   |  -    | -           |
+| trnH-GUG       |  1    |  1     |  1    | -           |
+| trnI-CAU       |  1\*  |  1\*   |  1\*  | 1\*         |
+| trnK-UUU       |  1    |  1\*   |  1    | -           |
+| trnL-CAA       |  -    |  -     |  1    | -           |
+| trnL-UAA       |  1\*  |  2     |  -    | -           |
+| trnL-UAG       |  1    |  1     |  -    | -           |
+| trnM-CAU       |  6    |  2     |  6    | 1           |
+| trnN-GUU       |  1    |  -     |  1    | -           |
+| trnP-AGG       |  1    |  1     |  1    | -           |
+| trnP-UGG       |  1    |  1     |  1    | -           |
+| trnQ-UUG       |  1\*  |  1     |  1    | 1           |
+| trnR-ACG       |  -    |  -     |  -    | 1           |
+| trnR-CCG       |  -    |  -     |  1    | -           |
+| trnR-GCG       |  -    |  -     |  1    | -           |
+| trnR-UCU       |  1\*  |  1     |  -    | -           |
+| trnS-GCU       |  1    |  1     |  -    | -           |
+| trnS-GGA       |  1    |  -     |  -    | -           |
+| trnS-UGA       |  1    |  1     |  -    | -           |
+| trnT-AGU       |  -    |  -     |  1    | -           |
+| trnT-UGU       |  -    |  -     |  1    | -           |
+| trnV-UAC (i)   |  1    |  -     |  1    | -           |
+| trnW-CCA       |  1    |  2     |  1    | 1           |
+| trnY-AUA       |  -    |  -     |  1    | -           |
+| trnY-GUA       |  1    |  1     |  2    | 1           |
+| **Total tRNA** | 27    | 23     | 27    | 8           |
 
 In addition to three plastid-derived tRNA genes, eight partial plastid genes are found in the 14 kbp of plastid-derived sequence: *atpE*, *chlN*, *petA*, *psaA*, *rps3*, *rrn18*, a partial copy of *rpl2*, and a partial *trnS-GGA* gene with homology to *Cycas taitungensis*. The *rpl2* partial gene is more similar to eudicot plastids (77% identical to *Helwingia himalaica*, *Robinia pseudoacacia*, and many other eudicots) than it is to the Sitka spruce plastid (66% identical).
 
