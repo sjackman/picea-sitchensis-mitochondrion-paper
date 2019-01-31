@@ -1,6 +1,6 @@
 ---
 title: "Largest Complete Mitochondrial Genome of a Gymnosperm, Sitka Spruce (*Picea sitchensis*), Assembled Using Long Reads"
-author: [Shaun D. Jackman, Lauren Coombe, René L. Warren, Heather Kirk, Eva Trinh, Stephen Pleasance, Pawan Pandoh, Yongjun Zhao, Robin J. Coope, Jean Bousquet, Joerg Bohlmann, Steven J. M. Jones, Inanc Birol]
+author: [Shaun D. Jackman, Lauren Coombe, René L. Warren, Heather Kirk, Eva Trinh, Tina McLeod, Stephen Pleasance, Pawan Pandoh, Yongjun Zhao, Robin J. Coope, Jean Bousquet, Joerg Bohlmann, Steven J. M. Jones, Inanc Birol]
 bibliography: psitchensismt.bib
 csl: psitchensismt.csl
 rangeDelim: "&ndash;"
