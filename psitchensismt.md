@@ -1,6 +1,6 @@
 ---
 title: "Largest Complete Mitochondrial Genome of a Gymnosperm, Sitka Spruce (*Picea sitchensis*), Assembled Using Long Reads"
-author: [Shaun D. Jackman, Lauren Coombe, René L. Warren, Heather Kirk, Eva Trinh, Tina McLeod, Stephen Pleasance, Pawan Pandoh, Yongjun Zhao, Robin J. Coope, Jean Bousquet, Joerg Bohlmann, Steven J. M. Jones, Inanc Birol]
+author: [Shaun D. Jackman^1^\*, Lauren Coombe^1^, René L. Warren^1^, Heather Kirk^1^, Eva Trinh^1^, Tina McLeod^1^, Stephen Pleasance^1^, Pawan Pandoh^1^, Yongjun Zhao^1^, Robin J. Coope^1^, Jean Bousquet^2^, Joerg Bohlmann^3^, Steven J. M. Jones^1^, Inanc Birol^1^\*]
 bibliography: psitchensismt.bib
 csl: psitchensismt.csl
 rangeDelim: "&ndash;"
@@ -9,6 +9,11 @@ figPrefix: "Fig."
 tblPrefix: ["Table", "Tables"]
 keywords: [mitochondrion, genome, assembly, plant, gymnosperm, conifer, spruce, organelle, Oxford, Nanopore, Illumina, 10x Genomics, Chromium, linked reads]
 ---
+
+| ^1^ Genome Sciences Centre, BC Cancer, Vancouver, BC V5Z 4S6, Canada
+| ^2^ Canada Research Chair in Forest Genomics, Institute  for Sytems and Integrative Biology, Université Laval, Quebec, Quebec G1V 0A6, Canada
+| ^3^ University of British Columbia, Michael Smith Laboratories, Vancouver, BC V6T 1Z4, Canada
+| \* corresponding authors
 
 # Abstract
 
