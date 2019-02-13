@@ -179,6 +179,6 @@ The 5.5 Mbp mitochondrial genome of Sitka spruce is among the largest ones in pl
 
 # Acknowledgements
 
-This work was funded by Genome Canada and Genome British Columbia.
+Funding was provided by Genome Canada, Genome Quebec, Genome British Columbia, and Genome Alberta for the Spruce-Up (243FOR) Project (<http://www.spruce-up.ca>).
 
 # References
