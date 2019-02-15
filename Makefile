@@ -37,8 +37,13 @@ psitchensismt-supp.pdf: psitchensismt-supp.md
 	brew cite $$(<$<) | sort >$@
 
 # Concatentate the citations with and without DOI.
+# Preserve title case.
 %.bib: %.doi.bib %.other.bib
-	sort $^ | sed 's~http://dx.doi.org~https://doi.org~' >$@
+	sort $^ \
+	| sed -E \
+		-e 's/title={([^}]*)},/title={{\1}},/' \
+		-e 's~http://dx.doi.org~https://doi.org~' \
+		>$@
 
 psitchensismt.docx: psitchensismt.bib psitchensismt.csl
 psitchensismt.html: psitchensismt.bib psitchensismt.csl
