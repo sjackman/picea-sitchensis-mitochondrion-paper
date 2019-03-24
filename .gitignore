@@ -3,3 +3,4 @@
 *.doi.bib
 *.html
 *.pdf
+!figures/genes.pdf
