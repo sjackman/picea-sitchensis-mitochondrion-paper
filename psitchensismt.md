@@ -8,6 +8,8 @@ eqnPrefix: "Equation"
 figPrefix: "Fig."
 tblPrefix: ["Table", "Tables"]
 keywords: [mitochondrion, genome, assembly, plant, gymnosperm, conifer, spruce, organelle, Oxford, Nanopore, Illumina]
+header-includes: |
+    \usepackage{setspace}
 ---
 
 | ^1^ Genome Sciences Centre, BC Cancer, Vancouver, BC V5Z 4S6, Canada

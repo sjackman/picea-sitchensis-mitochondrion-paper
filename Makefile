@@ -3,7 +3,7 @@ pandoc_opt=-Fpandoc-crossref -Fpandoc-citeproc
 .DELETE_ON_ERROR:
 .SECONDARY:
 
-all: psitchensismt.pdf
+all: psitchensismt.tidy.pdf
 
 clean:
 	rm -f psitchensismt.html psitchensismt.pdf
@@ -11,6 +11,18 @@ clean:
 # Download the citation style language (CSL)
 psitchensismt.csl:
 	curl -o $@ https://www.zotero.org/styles/genome-biology-and-evolution
+
+# Convert Markdown to LaTeX using Pandoc
+%.orig.tex: %.md %.bib %.csl
+	pandoc $(pandoc_opt) --wrap=none -s -o $@ $<
+
+# Tidy up the Pandoc-generated LaTeX.
+%.tidy.tex: %.orig.tex
+	bin/tidy-tex <$< >$@
+
+# Render LaTeX to PDF using XeLaTeX.
+%.pdf: %.tex
+	xelatex $<
 
 # Render Markdown to HTML using Pandoc
 %.html: %.md
