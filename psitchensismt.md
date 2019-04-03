@@ -47,6 +47,8 @@ Following automated annotation, we reviewed coding genes for completeness, compa
 
 We reviewed splice sites, and adjusted their position to agree with the expected splicing motifs of group II introns when possible, ensuring not to introduce insertions or deletions into the peptide sequence compared to homologous proteins. We confirmed the presence of domain V of the group II intron upstream of the 3' splice site, identified by RNAweasel or Infernal. We manually annotated trans-spliced introns by comparing alignments of homologous proteins to the genome. We determined the 5' and 3' splice sites similarly to cis-spliced introns, looking for expected group II splicing motifs, and domain V upstream of the 3' splice site. When Infernal did find a match to RFAM Intron_gpII (RF00029), it frequently identified the precise 3' splice site, in agreement with protein sequence homology.
 
+The scripts to assemble and annotate the Sitka spruce mitochondrial genome are available online at <https://github.com/sjackman/psitchensismt>.
+
 # Results and Discussion
 
 ## Complete Genome Assembly
