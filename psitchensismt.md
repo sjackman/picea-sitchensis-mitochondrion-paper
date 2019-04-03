@@ -7,7 +7,7 @@ rangeDelim: "&ndash;"
 eqnPrefix: "Equation"
 figPrefix: "Fig."
 tblPrefix: ["Table", "Tables"]
-keywords: [mitochondrion, genome, assembly, plant, gymnosperm, conifer, spruce, organelle, Oxford, Nanopore, Illumina, 10x Genomics, Chromium, linked reads]
+keywords: [mitochondrion, genome, assembly, plant, gymnosperm, conifer, spruce, organelle, Oxford, Nanopore, Illumina]
 ---
 
 | ^1^ Genome Sciences Centre, BC Cancer, Vancouver, BC V5Z 4S6, Canada
