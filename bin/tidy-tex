@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Tidy up Pandoc LaTeX.
-Prevent page breaks in tables and single space tables.
+Prevent page breaks in tables.
 """
 
 import re
@@ -15,17 +15,18 @@ def main():
         # Prevent page breaks in tables.
         line = line.replace("tabularnewline", "tabularnewline*")
 
+        if line.startswith(r"\hypertarget{tbl:"):
+            full_page_table = line != "\hypertarget{tbl:rrna}{}"
+
         # Single space tables.
-        if line.startswith(r"\begin{longtable}"):
-            print(r"\begin{singlespace}")
-            # Use a smaller font for tables.
-            print("\small")
+        if line.startswith(r"\begin{longtable}") and full_page_table:
+            print(r"\afterpage{ \clearpage")
 
         print(line)
 
         # Single space tables.
-        if line.startswith(r"\end{longtable}"):
-            print(r"\end{singlespace}")
+        if line.startswith(r"\end{longtable}") and full_page_table:
+            print(r"\clearpage }")
 
 if __name__ == "__main__":
     main()
