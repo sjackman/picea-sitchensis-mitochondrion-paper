@@ -1,0 +1,31 @@
+#!/usr/bin/env python3
+"""
+Tidy up Pandoc LaTeX.
+Prevent page breaks in tables and single space tables.
+"""
+
+import re
+import sys
+
+def main():
+    "Tidy up Pandoc LaTeX."
+    for line in sys.stdin:
+        line = line.rstrip()
+
+        # Prevent page breaks in tables.
+        line = line.replace("tabularnewline", "tabularnewline*")
+
+        # Single space tables.
+        if line.startswith(r"\begin{longtable}"):
+            print(r"\begin{singlespace}")
+            # Use a smaller font for tables.
+            print("\small")
+
+        print(line)
+
+        # Single space tables.
+        if line.startswith(r"\end{longtable}"):
+            print(r"\end{singlespace}")
+
+if __name__ == "__main__":
+    main()
