@@ -186,7 +186,7 @@ The 5.5 Mbp mitochondrial genome of Sitka spruce is among the largest ones in pl
 
 # Data Availability
 
-The Oxford Nanopore MinION sequencing data has SRA accessions SRX5081713, and SRR8264752 through SRR8264769. The Illumina HiSeq sequencing data has SRA accession SRR5028199.
+The Oxford Nanopore MinION sequencing data has SRA accessions SRX5081713, and SRR8264752 through SRR8264769. The Illumina HiSeq sequencing data has SRA accession SRR5028199. The Sitka spruce (*Picea sitchensis*) genotype Q903 complete mitochondrial genome has NCBI GenBank accessions MK697696 through MK697708.
 
 # Acknowledgements
 
