@@ -10,7 +10,7 @@ clean:
 
 # Download the citation style language (CSL)
 psitchensismt.csl:
-	curl -o $@ https://www.zotero.org/styles/genome-biology-and-evolution
+	curl -o $@ https://www.zotero.org/styles/scientific-reports
 
 # Convert Markdown to LaTeX using Pandoc
 %.orig.tex: %.md %.bib %.csl
