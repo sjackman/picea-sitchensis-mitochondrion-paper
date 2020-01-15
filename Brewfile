@@ -1,3 +1,5 @@
 brew "pandoc"
 brew "pandoc-citeproc"
 brew "pandoc-crossref"
+# cask "basictex"
+# cask "mactex"
