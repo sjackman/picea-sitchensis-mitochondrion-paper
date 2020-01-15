@@ -8,6 +8,10 @@ all: psitchensismt.tidy.pdf
 clean:
 	rm -f psitchensismt.html psitchensismt.pdf
 
+install-deps:
+	brew bundle install
+	tlmgr install lm-math nowidow
+
 # Download the citation style language (CSL)
 psitchensismt.csl:
 	curl -o $@ https://www.zotero.org/styles/genome-biology-and-evolution
